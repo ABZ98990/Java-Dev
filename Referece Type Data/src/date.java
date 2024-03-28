@@ -6,4 +6,4 @@ public class date {
         Date now = new Date();
         System.out.println(now);
     }
-} 
+}
