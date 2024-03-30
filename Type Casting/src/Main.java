@@ -2,6 +2,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello world!");
+        //implicit casting (automatic)
+        short x = 1;
+        int y = x + 2;
+        System.out.println(y);
     }
 }
