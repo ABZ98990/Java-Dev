@@ -26,7 +26,7 @@ public class Main
             }
             System.out.print("Do you wish to try again? [y/n]: ");
             String con = sc.next();
-            if (Objects.equals(con,"n"))
+            if (con.equals("n")) //instead of Objects.equals(con, "n") we could directly call .equal method for "con" object
             {
                 break;
             }
