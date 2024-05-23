@@ -14,7 +14,7 @@ public class Main
         */
 
         /*
-        Conventional method where you initially declare and initialize the variable with an assumed method and then set the required value in the conditional statement
+        Conventional method where you initially declare and initialize the variable with an assumed value and then change it using a conditional statement
 
         boolean HasHighIncome = false;
         if (income > 100_000)
