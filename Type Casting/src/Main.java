@@ -2,10 +2,12 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // short > int > double > long > float
+
         //implicit casting (automatic)
         short x = 1;
         int y = x + 2;
-        System.out.println("y : " + y);
+        System.out.println("y is " + y);
 
         //explicit casting
         double a = 1.1;

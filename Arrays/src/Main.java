@@ -5,27 +5,25 @@ public class Main
     public static void main(String[] args)
     {
         /*Linear Arrays
-        int[] numbers = new int[5];
-        numbers[0] = 15;
-        numbers[1] = 25;
-        System.out.println(Arrays.toString(numbers));
+        String[] name = new String[2];
+        name[0] = "ADIL";
+        name[1] = "MEHMOOD";
+        System.out.println(Arrays.toString(name));
         */
 
         /*Linear Arrays: better
-        int[] numbers = {1,9,7,5,6,3,1};
-        System.out.println(numbers.length);
-        Arrays.sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+        int[] arr = {1,2,3,4,5,6};
+        System.out.println(Arrays.toString(arr));
         */
 
         /*Multi-Dimensional Arrays
-        int[][] numbers = new int[2][3];
-        numbers[0][0] = 1;
+        int[][] numbers = new int[2][2];
+        numbers[1][0] = 99;
         System.out.println(Arrays.deepToString(numbers));
         */
 
         //Multi-Dimensional Array: Better
-        int [][] numbers = {{1,2,3} , {4,5}};
+        int [][] numbers = {{1,2,3} , {4,5,6}};
         System.out.println(Arrays.deepToString(numbers));
         System.out.println(numbers.length);
     }
